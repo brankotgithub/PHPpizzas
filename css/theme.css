@@ -119,31 +119,30 @@ header .navigation .menu a{
 }
 
 
-.about-section{
-    padding: 50px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+.about-section {
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 10px; /* Adjust the gap between columns as needed */
+    align-items: center;
 }
+
+/* Add additional styling for .about-info and .about-image as necessary */
+
 
 .about-section .about-image{
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 49%;
-            flex: 0 0 49%;
-    max-width: 49%;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+    max-width: 80%;
 }
+
 .about-section .about-info{
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 49%;
-            flex: 0 0 49%;
-    max-width: 49%;
-    padding: 20px;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+    max-width: 80%;
+    padding: 10px;
 }
 .about-section .about-info h2{
     font-size: 30px;
