@@ -1,1 +1,1 @@
-URL https://brankotgithub.github.io/phppizzas/public_html/index.html
+URL https://brankotgithub.github.io/phppizzas/index.html
